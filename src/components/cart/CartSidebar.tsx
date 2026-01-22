@@ -21,7 +21,7 @@ export function CartSidebar() {
       }}
     >
       <div
-        className={`absolute top-0 h-full w-[400px] max-w-full bg-white transition-[right] duration-300 flex flex-col p-[30px] ${
+        className={`absolute top-0 h-full w-[400px] max-w-full bg-cream transition-[right] duration-300 flex flex-col p-[30px] ${
           isOpen ? 'right-0' : '-right-[400px]'
         }`}
       >
@@ -54,7 +54,7 @@ export function CartSidebar() {
           </div>
           <a
             href={cart?.checkoutUrl ?? '#'}
-            className="block w-full py-4 bg-text-primary text-white text-center font-bold cursor-pointer hover:bg-black transition-colors"
+            className="block w-full py-4 bg-brown-800 text-cream text-center font-bold tracking-wider cursor-pointer hover:bg-brown-900 transition-colors"
           >
             CHECKOUT
           </a>

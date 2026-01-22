@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply antialiased leading-relaxed;
+    @apply antialiased leading-relaxed bg-cream;
   }
 
   a {
@@ -17,6 +17,10 @@
 
   a:hover {
     @apply text-accent;
+  }
+
+  ::selection {
+    @apply bg-brown-300 text-brown-900;
   }
 }
 

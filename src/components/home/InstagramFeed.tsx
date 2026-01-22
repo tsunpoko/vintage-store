@@ -1,17 +1,17 @@
 import Image from 'next/image';
 
 const instagramPosts = [
-  'https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-  'https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-  'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-  'https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-  'https://images.unsplash.com/photo-1479064566235-0ad3865a782a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-  'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  'https://images.unsplash.com/photo-1558171813-4c088753af8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  'https://images.unsplash.com/photo-1520367445093-50dc08a59d9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  'https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  'https://images.unsplash.com/photo-1467043237213-65f2da53396f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
 ];
 
 export function InstagramFeed() {
   return (
-    <section className="section-padding bg-[#fcfcfc]">
+    <section className="section-padding bg-brown-50">
       <div className="container">
         <div className="text-center mb-lg">
           <h2 className="font-serif text-2xl">INSTAGRAM</h2>

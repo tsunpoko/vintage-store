@@ -3,19 +3,22 @@ import Link from 'next/link';
 
 const features = [
   {
-    title: 'スタッフおすすめ',
-    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    title: 'STAFF PICKS',
+    subtitle: 'スタッフのおすすめ',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     href: '/collections/staff-picks',
   },
   {
-    title: '新着アイテム',
-    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    title: 'NEW ARRIVALS',
+    subtitle: '新着アイテム',
+    image: 'https://images.unsplash.com/photo-1558171813-4c088753af8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     href: '/products',
   },
   {
-    title: '冬のヴィンテージ特集',
-    image: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    href: '/collections/winter',
+    title: 'LEATHER GOODS',
+    subtitle: 'レザーコレクション',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    href: '/collections/leather',
   },
 ];
 
@@ -36,8 +39,10 @@ export function FeatureGrid() {
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               <div className="absolute bottom-md left-md text-white">
-                <h3 className="text-lg font-bold drop-shadow-md">{feature.title}</h3>
+                <h3 className="font-serif text-lg tracking-wider drop-shadow-md">{feature.title}</h3>
+                <p className="text-xs text-white/80 mt-1">{feature.subtitle}</p>
               </div>
             </Link>
           ))}

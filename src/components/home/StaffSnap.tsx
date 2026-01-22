@@ -5,31 +5,31 @@ const staffSnaps = [
   {
     name: 'SATO (175cm)',
     role: '渋谷店 / スタイリスト',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'TANAKA (162cm)',
     role: '神南店 / プレス',
-    image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'ITO (180cm)',
     role: '原宿店 / ショップスタッフ',
-    image: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1488161628813-04466f0016e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'YAMADA (168cm)',
     role: 'WEB / MD',
-    image: 'https://images.unsplash.com/photo-1521577332490-4496464673c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
 ];
 
 export function StaffSnap() {
   return (
-    <section className="section-padding">
+    <section className="section-padding bg-brown-50">
       <div className="container">
         <div className="flex justify-between items-end mb-lg">
-          <h2 className="font-serif text-[32px]">STAFF SNAP</h2>
+          <h2 className="font-serif text-[28px] md:text-[32px]">STAFF SNAP</h2>
           <Link href="#" className="text-[13px] underline">
             すべてのスナップをみる
           </Link>

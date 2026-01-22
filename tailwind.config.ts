@@ -9,12 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        accent: '#c06040',
-        'accent-hover': '#a04e32',
-        'text-primary': '#1a1a1a',
-        'text-light': '#666666',
-        border: '#eeeeee',
-        'section-bg': '#f9f9f9',
+        accent: '#8b7355',
+        'accent-hover': '#6b5a45',
+        'text-primary': '#2c2c2c',
+        'text-light': '#7a7a7a',
+        border: '#e5e0d8',
+        'section-bg': '#f7f5f2',
+        cream: '#faf8f5',
+        brown: {
+          50: '#faf8f5',
+          100: '#f0ebe4',
+          200: '#e5ddd2',
+          300: '#d4c8b8',
+          400: '#b8a78e',
+          500: '#8b7355',
+          600: '#6b5a45',
+          700: '#544738',
+          800: '#3d342a',
+          900: '#2c2620',
+        },
       },
       fontFamily: {
         sans: ['Inter', 'Noto Sans JP', 'sans-serif'],

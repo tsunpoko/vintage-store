@@ -44,7 +44,7 @@ export default function RootLayout({
       lang="ja"
       className={`${inter.variable} ${notoSansJP.variable} ${playfairDisplay.variable} ${sawarabiMincho.variable}`}
     >
-      <body className="font-sans bg-white text-text-primary">
+      <body className="font-sans bg-cream text-text-primary">
         <CartProvider>
           <Announcement />
           <Header />

@@ -3,14 +3,14 @@ import Link from 'next/link';
 
 const categories = [
   {
-    title: 'TOPS',
-    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-    href: '/collections/tops',
+    title: 'OUTER & JACKET',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    href: '/collections/actual-land-g-b-m-o-u-t-h',
   },
   {
-    title: 'BOTTOMS',
-    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-    href: '/collections/bottoms',
+    title: 'DENIM & PANTS',
+    image: 'https://images.unsplash.com/photo-1565084888279-aca607ecce0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+    href: '/collections/spring-stands-it-rains-and-life-comes-forth-geep',
   },
 ];
 
