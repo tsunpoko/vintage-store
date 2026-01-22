@@ -15,7 +15,7 @@ const staffSnaps = [
   {
     name: 'ITO (180cm)',
     role: '原宿店 / ショップスタッフ',
-    image: 'https://images.unsplash.com/photo-1488161628813-04466f0016e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'YAMADA (168cm)',
