@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA VINTAGE | 上質な古着を日常に。</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Sawarabi+Mincho&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="announcement">
+    【24時間以内発送】税込11,000円以上のお買い上げで送料無料
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <div class="header__logo">AURA VINTAGE</div>
+
+        <div class="header__search-bar">
+          <input type="text" class="header__search-input" placeholder="アイテム、ブランドを検索...">
+          <button class="header__search-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+
+        <div class="header__user-nav">
+          <!-- Icons common in JP stores -->
+          <a href="#" style="margin-left: 15px;">LOGIN</a>
+          <a href="#" id="cart-btn" style="margin-left: 15px;">CART(0)</a>
+        </div>
+      </div>
+
+      <nav class="header__nav">
+        <a href="#" class="header__nav-link">新着アイテム</a>
+        <a href="#" class="header__nav-link">メンズ</a>
+        <a href="#" class="header__nav-link">レディース</a>
+        <a href="#" class="header__nav-link">ブランド</a>
+        <a href="#" class="header__nav-link">特集</a>
+        <a href="#" class="header__nav-link">店舗案内</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero (Page Vintage inspired clean layout) -->
+    <section class="hero">
+      <img
+        src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
+        alt="Hero" class="hero__image">
+      <div class="container">
+        <div class="hero__content">
+          <p class="hero__tagline">CURATED CLOTHING</p>
+          <h1 class="hero__title">上質な古着を、<br>日常のスタイルに。</h1>
+          <a href="#" class="hero__btn"
+            style="background: white; color: black; padding: 12px 40px; border-radius: 0; font-weight: 700;">すべてみる</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features (Jam Trading inspired editorial sections) -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="feature-grid">
+          <a href="#" class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Staff Recommendation">
+            <div class="feature-card__content">
+              <h3 class="feature-card__title">スタッフおすすめ</h3>
+            </div>
+          </a>
+          <a href="#" class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="New Arrivals">
+            <div class="feature-card__content">
+              <h3 class="feature-card__title">新着アイテム</h3>
+            </div>
+          </a>
+          <a href="#" class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Specials">
+            <div class="feature-card__content">
+              <h3 class="feature-card__title">冬のヴィンテージ特集</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands (Page Vintage inspired categorization) -->
+    <section class="brand-section section-padding">
+      <div class="container">
+        <h2 class="heading-serif" style="text-align: center; margin-bottom: var(--spacing-lg); font-size: 28px;">BRANDS
+        </h2>
+        <div class="brand-grid">
+          <a href="#" class="brand-item">LEVI'S</a>
+          <a href="#" class="brand-item">CHAMPION</a>
+          <a href="#" class="brand-item">PATAGONIA</a>
+          <a href="#" class="brand-item">CARHARTT</a>
+          <a href="#" class="brand-item">RALPH LAUREN</a>
+          <a href="#" class="brand-item">BURBERRY</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section-padding">
+      <div class="container">
+        <div
+          style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: var(--spacing-lg);">
+          <h2 class="heading-serif" style="font-size: 32px;">NEW ARRIVALS</h2>
+          <a href="#" style="font-size: 13px; text-decoration: underline;">すべての新着商品をみる</a>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product Card -->
+          <article class="product-card">
+            <div class="product-tag">SOLD OUT</div>
+            <div class="product-card__image-container">
+              <img
+                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Reverse Weave" class="product-card__image">
+            </div>
+            <div class="product-card__info">
+              <p class="product-card__brand">Champion</p>
+              <h3 class="product-card__title">90's リバースウィーブ スウェット カレッジプリント USA製</h3>
+              <p class="product-card__price">¥15,400 <span
+                  style="font-size: 11px; color: #999; font-weight: normal;">(tax in)</span></p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-container">
+              <img
+                src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Levi's 501" class="product-card__image">
+            </div>
+            <div class="product-card__info">
+              <p class="product-card__brand">Levi's</p>
+              <h3 class="product-card__title">80's Levi's 501 赤耳 デニムパンツ 実寸W31 L32</h3>
+              <p class="product-card__price">¥28,600 <span
+                  style="font-size: 11px; color: #999; font-weight: normal;">(tax in)</span></p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-container">
+              <img
+                src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Barbour" class="product-card__image">
+            </div>
+            <div class="product-card__info">
+              <p class="product-card__brand">Barbour</p>
+              <h3 class="product-card__title">Barbour Bedale オイルドジャケット 英国製 ネイビー 38</h3>
+              <p class="product-card__price">¥35,200 <span
+                  style="font-size: 11px; color: #999; font-weight: normal;">(tax in)</span></p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__image-container">
+              <img
+                src="https://images.unsplash.com/photo-1578932750294-f500242573bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Ralph Lauren" class="product-card__image">
+            </div>
+            <div class="product-card__info">
+              <p class="product-card__brand">Polo Ralph Lauren</p>
+              <h3 class="product-card__title">Polo by Ralph Lauren ボタンダウンシャツ オックスフォード</h3>
+              <p class="product-card__price">¥8,800 <span
+                  style="font-size: 11px; color: #999; font-weight: normal;">(tax in)</span></p>
+            </div>
+          </article>
+          <!-- Category Visuals (Visual Navigation) -->
+          <section class="section-padding">
+            <div class="container">
+              <div class="category-visuals">
+                <a href="#" class="category-visual-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                    alt="Tops">
+                  <div class="category-visual-card__overlay">
+                    <h3 class="category-visual-card__title">TOPS</h3>
+                  </div>
+                </a>
+                <a href="#" class="category-visual-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                    alt="Bottoms">
+                  <div class="category-visual-card__overlay">
+                    <h3 class="category-visual-card__title">BOTTOMS</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Staff Snap (Styling) -->
+          <section class="section-padding">
+            <div class="container">
+              <div
+                style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: var(--spacing-lg);">
+                <h2 class="heading-serif" style="font-size: 32px;">STAFF SNAP</h2>
+                <a href="#" style="font-size: 13px; text-decoration: underline;">すべてのスナップをみる</a>
+              </div>
+              <div class="snap-grid">
+                <div class="snap-card">
+                  <div class="snap-card__image-container">
+                    <img
+                      src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      alt="Staff 1" class="snap-card__image">
+                  </div>
+                  <div class="snap-card__info">
+                    <p class="snap-card__staff-name">SATO (175cm)</p>
+                    <p class="snap-card__staff-meta">渋谷店 / スタイリスト</p>
+                  </div>
+                </div>
+                <div class="snap-card">
+                  <div class="snap-card__image-container">
+                    <img
+                      src="https://images.unsplash.com/photo-1539109132382-381bb3f51ec1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      alt="Staff 2" class="snap-card__image">
+                  </div>
+                  <div class="snap-card__info">
+                    <p class="snap-card__staff-name">TANAKA (162cm)</p>
+                    <p class="snap-card__staff-meta">神南店 / プレス</p>
+                  </div>
+                </div>
+                <div class="snap-card">
+                  <div class="snap-card__image-container">
+                    <img
+                      src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      alt="Staff 3" class="snap-card__image">
+                  </div>
+                  <div class="snap-card__info">
+                    <p class="snap-card__staff-name">ITO (180cm)</p>
+                    <p class="snap-card__staff-meta">原宿店 / ショップスタッフ</p>
+                  </div>
+                </div>
+                <div class="snap-card">
+                  <div class="snap-card__image-container">
+                    <img
+                      src="https://images.unsplash.com/photo-1521577332490-4496464673c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                      alt="Staff 4" class="snap-card__image">
+                  </div>
+                  <div class="snap-card__info">
+                    <p class="snap-card__staff-name">YAMADA (168cm)</p>
+                    <p class="snap-card__staff-meta">WEB / MD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Care Guide (Trust Section) -->
+          <section class="care-section section-padding">
+            <div class="container">
+              <h2 class="heading-serif" style="text-align: center; margin-bottom: var(--spacing-xl); font-size: 32px;">
+                QUALITY & CARE</h2>
+              <div class="care-grid">
+                <div class="care-item">
+                  <div class="care-item__icon">🧼</div>
+                  <h3 class="care-item__title">厳選されたクリーニング</h3>
+                  <p class="care-item__desc">全アイテムに対し、素材に合わせた最適な洗浄と除菌を実施。古着特有の匂いや汚れを徹底的に除去し、清潔な状態でお届けします。</p>
+                </div>
+                <div class="care-item">
+                  <div class="care-item__icon">🔍</div>
+                  <h3 class="care-item__title">独自の検品基準</h3>
+                  <p class="care-item__desc">5段階のコンディションランクを設定。ピンホールやスレ、細かなダメージも見逃さず、誠実に表記することをお約束します。</p>
+                </div>
+                <div class="care-item">
+                  <div class="care-item__icon">📦</div>
+                  <h3 class="care-item__title">丁寧な梱包と配送</h3>
+                  <p class="care-item__desc">型崩れを防ぐ丁寧な梱包で、注文から24時間以内に発送。大切な一点物を、最高の状態でお手元までお届けします。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Magazine (Knowledge) -->
+          <section class="section-padding">
+            <div class="container">
+              <div
+                style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: var(--spacing-lg);">
+                <h2 class="heading-serif" style="font-size: 32px;">VINTAGE MAGAZINE</h2>
+                <a href="#" style="font-size: 13px; text-decoration: underline;">すべての記事をみる</a>
+              </div>
+              <div class="magazine-grid">
+                <article class="magazine-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1555529771-835f59fc5efe?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                    alt="Blog 1" class="magazine-card__image">
+                  <div class="magazine-card__content">
+                    <time class="magazine-card__date">2026.01.10</time>
+                    <h3 class="magazine-card__title">失敗しないリバースウィーブの選び方。年代別の特徴とサイズ感を徹底解説。</h3>
+                  </div>
+                </article>
+                <article class="magazine-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                    alt="Blog 2" class="magazine-card__image">
+                  <div class="magazine-card__content">
+                    <time class="magazine-card__date">2026.01.05</time>
+                    <h3 class="magazine-card__title">冬のレイヤードスタイルを格上げする「Barbour」の着こなし術。</h3>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <!-- Instagram Feed -->
+          <section class="section-padding" style="background-color: #fcfcfc;">
+            <div class="container">
+              <div style="text-align: center; margin-bottom: var(--spacing-lg);">
+                <h2 class="heading-serif" style="font-size: 24px;">INSTAGRAM</h2>
+                <p style="font-size: 12px; color: var(--color-text-light);">@auravintage_official</p>
+              </div>
+              <div class="social-grid">
+                <div class="social-item"><img
+                    src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                    alt="Social 1"></div>
+                <div class="social-item"><img
+                    src="https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                    alt="Social 2"></div>
+                <div class="social-item"><img
+                    src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                    alt="Social 3"></div>
+                <div class="social-item"><img
+                    src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                    alt="Social 4"></div>
+                <div class="social-item"><img
+                    src="https://images.unsplash.com/photo-1479064566235-0ad3865a782a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                    alt="Social 5"></div>
+                <div class="social-item"><img
+                    src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                    alt="Social 6"></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Floating Navigation -->
+          <div class="float-nav">
+            <a href="#" class="float-btn" title="最近チェックしたアイテム">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </a>
+            <a href="#" class="float-btn" title="トップへ戻る">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 15l7-7 7 7"></path>
+              </svg>
+            </a>
+          </div>
+  </main>
+
+  <footer class="footer section-padding"
+    style="border-top: 1px solid var(--color-border); background: #1a1a1a; color: white;">
+    <div class="container"
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-xl);">
+      <div>
+        <h4 style="font-size: 16px; margin-bottom: 20px;">SHOP INFO</h4>
+        <p style="font-size: 12px; line-height: 2;">AURA VINTAGE 東京店<br>東京都渋谷区神南1-2-3<br>営業時間: 12:00 - 20:00</p>
+      </div>
+      <div>
+        <h4 style="font-size: 16px; margin-bottom: 20px;">GUIDE</h4>
+        <ul style="font-size: 12px; line-height: 2.5;">
+          <li><a href="#" style="color: #aaa;">送料・配送について</a></li>
+          <li><a href="#" style="color: #aaa;">返品・交換について</a></li>
+          <li><a href="#" style="color: #aaa;">お支払い方法</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-size: 16px; margin-bottom: 20px;">NEWSLETTER</h4>
+        <p style="font-size: 12px; margin-bottom: 15px; color: #aaa;">最新の入荷情報やイベントのお知らせを配信。</p>
+        <input type="email" placeholder="メールアドレス"
+          style="width: 100%; padding: 10px; background: #333; border: none; color: white;">
+      </div>
+    </div>
+  </footer>
+  <!-- Cart Sidebar -->
+  <div id="cart-sidebar" class="sidebar-overlay">
+    <div class="sidebar-content">
+      <div class="sidebar-header">
+        <h3 class="heading-serif">SHOPPING CART</h3>
+        <button id="cart-close" class="close-btn">&times;</button>
+      </div>
+      <div class="sidebar-body">
+        <p class="empty-msg">カートに商品が入っていません。</p>
+      </div>
+      <div class="sidebar-footer">
+        <div class="sidebar-total">
+          <span>TOTAL:</span>
+          <span>¥0</span>
+        </div>
+        <button class="checkout-btn">CHECKOUT</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div id="search-modal" class="modal-overlay">
+    <button id="search-modal-close" class="close-btn">&times;</button>
+    <div class="modal-content">
+      <div class="search-modal__inner">
+        <input type="text" class="search-modal__input" placeholder="何をお探しですか？">
+        <div class="search-modal__suggestions">
+          <p>POPULAR: Levi's, Champion, Burberry</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

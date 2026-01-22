@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply antialiased leading-relaxed;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  a:hover {
+    @apply text-accent;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-container mx-auto px-[4%];
+  }
+
+  .section-padding {
+    @apply py-xl;
+  }
+
+  .heading-serif {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .animate-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .animate-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
